@@ -6,6 +6,7 @@ body {
     flex-direction: column;
     align-items: center;
 }
+
 header {
     background-color: #333;
     color: #fff;
@@ -14,19 +15,19 @@ header {
     width: 100%;
 }
 
-nav ul a {
-    color: white;
-}
-
 nav ul {
     list-style-type: none;
     padding: 0;
-    color: white;
 }
 
 nav ul li {
     display: inline;
     margin-right: 20px;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: white;
 }
 
 section {
@@ -42,18 +43,39 @@ video {
     height: auto;
 }
 
-.greeting {
-    font-family: 'Pacifico', cursive;
-    font-size: 2em;
-    color: #333;
-    text-align: center;
-}
-
-.intro {
+.greeting, .intro {
     font-family: 'Arial', sans-serif;
     color: #333;
     max-width: 800px;
     text-align: center;
     line-height: 1.5;
     padding: 20px;
+}
+
+.say-hello {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    max-width: 800px;
+    text-align: center;
+    line-height: 1.5;
+    padding: 20px;
+}
+
+.say-hello ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.say-hello li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.say-hello a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.say-hello a:hover {
+    text-decoration: underline;
 }
