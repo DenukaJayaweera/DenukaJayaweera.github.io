@@ -79,3 +79,14 @@ video {
 .say-hello a:hover {
     text-decoration: underline;
 }
+
+
+.header-image {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.header-content {
+    flex-grow: 1;
+}
