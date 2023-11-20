@@ -16,6 +16,10 @@ header {
     width: 100%;
 }
 
+nav ul a {
+    color: white;
+}
+
 nav ul {
     list-style-type: none;
     padding: 0;
