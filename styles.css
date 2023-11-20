@@ -83,3 +83,9 @@ video {
 .header-content {
     flex-grow: 1;
 }
+
+.about-image {
+    width: 150px;
+    height: auto;
+    margin-right: 10px;
+}
