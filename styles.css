@@ -15,6 +15,10 @@ header {
     width: 100%;
 }
 
+h2 {
+    color: #8a2eb2;
+}
+
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -85,7 +89,32 @@ video {
 }
 
 .about-image {
-    width: 150px;
+    width: 700px;
     height: auto;
     margin-right: 10px;
+}
+
+.personal-details {
+    display: flex;
+    max-width: 800px;
+    margin: 20px;
+}
+
+.detail {
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.topic {
+    color: #8a2be2; /* Purple color for topics */
+    margin-bottom: 5px; /* Added margin to separate topics and descriptions */
+}
+
+.description {
+    color: #000; /* Black color for descriptions */
+}
+
+ul, ol {
+    list-style-type: none;
 }
